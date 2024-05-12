@@ -62,13 +62,6 @@
   margin: auto;
 }
 
-.section > .text-media-wrapper .text-media.two-columns .text-media-content {
-  -moz-column-count: 2;
-       column-count: 2;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
-}
-
 .section > .text-media-wrapper .text-media.p-large-thin {
   --font-size: 22px;
   --font-weight: 200;
@@ -104,8 +97,6 @@
   width: 100%;
   max-width: none;
   filter: brightness(0.5);
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .section > .text-media-wrapper .text-media.cover-image.bg-darker > * {
