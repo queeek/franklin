@@ -2,7 +2,6 @@
 
 .section > .text-media-wrapper:has(.cover-image) {
   max-width: 1024px;
-  margin: calc(var(--typography-spacing-vertical) * 2) auto;
 }
 .section > .text-media-wrapper::after {
   content: "";
@@ -21,11 +20,8 @@
 .section > .text-media-wrapper .text-media-cta-buttons {
   display: flex;
   justify-content: center;
-  margin-top: var(--typography-spacing-vertical);
-  margin-bottom: var(--typography-spacing-vertical);
 }
 .section > .text-media-wrapper .text-media.heading-accent h2, .section > .text-media-wrapper .text-media.heading-accent h3, .section > .text-media-wrapper .text-media.heading-accent h4 {
-  color: var(--color-red-500);
 }
 .section > .text-media-wrapper .text-media > div:first-child h2, .section > .text-media-wrapper .text-media > div:first-child h3, .section > .text-media-wrapper .text-media > div:first-child h4 {
   text-align: center;
@@ -78,9 +74,7 @@
   text-align: center;
 }
 .section > .text-media-wrapper .text-media.cover-image > div:has(.text-media-content) {
-  max-width: var(--max-content-width);
   margin: auto;
-  padding: var(--typography-spacing-vertical);
 }
 .section > .text-media-wrapper .text-media.cover-image > div:has(picture) {
   height: 100%;
@@ -105,10 +99,7 @@
 .section > .text-media-wrapper .text-media.text-inverse h1, .section > .text-media-wrapper .text-media.text-inverse h2, .section > .text-media-wrapper .text-media.text-inverse h3, .section > .text-media-wrapper .text-media.text-inverse h4, .section > .text-media-wrapper .text-media.text-inverse h5, .section > .text-media-wrapper .text-media.text-inverse h6 {
   --color: white;
 }
-.section > .text-media-wrapper .text-media.text-media-card {
-  border-radius: var(--border-radius);
-  box-shadow: var(--shadow-small);
-}
+
 .section > .text-media-wrapper .text-media.text-media-card > div:has(picture) {
   margin-bottom: 0.75rem;
 }

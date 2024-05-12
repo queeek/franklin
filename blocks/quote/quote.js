@@ -1,4 +1,4 @@
-import { div, domEl } from '../../scripts/dom-helper.js';
+import { domEl } from '../../scripts/dom-helper.js';
 
 export default function decorate(block) {
   const [

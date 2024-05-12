@@ -1,8 +1,6 @@
-// import { div } from '../../scripts/dom-helper.js';
-
 export default function decorate(block) {
   const [
-    heading, picture, caption, text, cta1, cta2,
+    heading, caption, text, cta1, cta2,
   ] = block.querySelectorAll(':scope > div > div');
 
   [caption, text, cta1, cta2].forEach((el) => {
