@@ -7,12 +7,14 @@
   margin: auto;
   text-align: center;
 }
+
 .section .quote-wrapper .quote > div:has(picture) {
   width: 112px;
   aspect-ratio: 1;
   border-radius: 50%;
   overflow: hidden;
 }
+
 .section .quote-wrapper .quote blockquote {
   font-size: 24px;
   font-style: italic;
@@ -21,12 +23,15 @@
   margin-top: 0.5rem;
   margin-bottom: 0;
 }
+
 .section .quote-wrapper .quote blockquote > div > div::before {
   content: open-quote;
 }
+
 .section .quote-wrapper .quote blockquote > div > div::after {
   content: close-quote;
 }
+
 .section .quote-wrapper .quote cite {
   display: block;
   font-size: 14px;
