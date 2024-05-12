@@ -1,0 +1,42 @@
+.section .quote-wrapper .quote {
+  max-width: 800px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.section .quote-wrapper .quote > div:has(picture) {
+  width: 112px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.section .quote-wrapper .quote blockquote {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 31.2px;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.section .quote-wrapper .quote blockquote > div > div::before {
+  content: open-quote;
+}
+
+.section .quote-wrapper .quote blockquote > div > div::after {
+  content: close-quote;
+}
+
+.section .quote-wrapper .quote cite {
+  display: block;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 0;
+  text-align: center;
+}
